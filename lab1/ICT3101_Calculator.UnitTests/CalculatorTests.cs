@@ -38,7 +38,7 @@ namespace ICT3101_Calculator.UnitTests
         [TestCase(10, 0)]
         public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
         {
-            Assert.That(() => _calculator.Divide(a, b), Throws.ArgumentException);
+            Assert.That(() => _calculator.Divide(a, b), Is.EqualTo(double.PositiveInfinity));
         }
         [Test]
         public void Divide_ZerosByDinominator()

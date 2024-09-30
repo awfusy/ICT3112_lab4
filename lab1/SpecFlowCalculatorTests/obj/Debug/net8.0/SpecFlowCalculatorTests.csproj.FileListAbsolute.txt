@@ -121,3 +121,4 @@ D:\ICT3112\lab1\SpecFlowCalculatorTests\obj\Debug\net8.0\refint\SpecFlowCalculat
 D:\ICT3112\lab1\SpecFlowCalculatorTests\obj\Debug\net8.0\SpecFlowCalculatorTests.pdb
 D:\ICT3112\lab1\SpecFlowCalculatorTests\obj\Debug\net8.0\SpecFlowCalculatorTests.genruntimeconfig.cache
 D:\ICT3112\lab1\SpecFlowCalculatorTests\obj\Debug\net8.0\ref\SpecFlowCalculatorTests.dll
+D:\ICT3112\lab1\SpecFlowCalculatorTests\obj\Debug\net8.0\SpecFlowCalculatorTests.sourcelink.json

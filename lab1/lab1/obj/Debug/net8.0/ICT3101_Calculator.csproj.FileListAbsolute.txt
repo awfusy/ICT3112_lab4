@@ -110,3 +110,4 @@ D:\ICT3112\lab1\lab1\obj\Debug\net8.0\refint\ICT3101_Calculator.dll
 D:\ICT3112\lab1\lab1\obj\Debug\net8.0\ICT3101_Calculator.pdb
 D:\ICT3112\lab1\lab1\obj\Debug\net8.0\ICT3101_Calculator.genruntimeconfig.cache
 D:\ICT3112\lab1\lab1\obj\Debug\net8.0\ref\ICT3101_Calculator.dll
+D:\ICT3112\lab1\lab1\obj\Debug\net8.0\ICT3101_Calculator.sourcelink.json

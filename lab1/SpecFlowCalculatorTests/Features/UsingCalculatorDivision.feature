@@ -21,4 +21,4 @@ Then the division result equals positive_infinity
 Scenario: Dividing by zero by zero
 Given I have a calculator
 When I have entered 0 and 0 into the calculator and press divide
-Then the division result should be 1
+Then the division result equals positive_infinity

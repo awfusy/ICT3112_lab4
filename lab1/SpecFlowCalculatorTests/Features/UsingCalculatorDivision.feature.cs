@@ -196,7 +196,7 @@ testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Ta
 testRunner.When("I have entered 0 and 0 into the calculator and press divide", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 24
-testRunner.Then("the division result should be 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("the division result equals positive_infinity", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

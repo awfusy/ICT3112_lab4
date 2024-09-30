@@ -80,7 +80,7 @@ public class Calculator
         {
             if (num1 == 0)
             {
-                return 1;
+                return double.PositiveInfinity;
             }
 
             return double.PositiveInfinity;
