@@ -53,6 +53,7 @@
             Console.WriteLine("\tAFI - Average Failure Intensity");
             Console.WriteLine("\tALFI - Average Log Failure Intensity");
             Console.WriteLine("\tSRDD - Second Release Defect Density");
+            Console.WriteLine("\tx - Magic number");
             Console.Write("Your option? ");
             string op = Console.ReadLine();
             try

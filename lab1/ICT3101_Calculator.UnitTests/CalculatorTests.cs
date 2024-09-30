@@ -5,12 +5,14 @@ namespace ICT3101_Calculator.UnitTests
     public class CalculatorTests
     {
         private Calculator _calculator;
+        private IFileReader _fileReader;
 
         [SetUp]
         public void Setup()
         {
             // Arrange
             _calculator = new Calculator();
+            _fileReader = new FileReader();
         }
         [Test]
         public void Add_WhenAddingTwoNumbers_ResultEqualToSum()
@@ -218,5 +220,34 @@ namespace ICT3101_Calculator.UnitTests
              Assert.Equals(0, actual);
          }
         **/
+
+
+
+        // LAB 4 QN 8
+        [Test]
+        public void GenMagicNum_ValidIndex_ReturnsDoubleMagicNumber()
+        {
+            // Act
+            double result = _calculator.GenMagicNum(1, _fileReader); 
+            // Assert
+            Assert.That(result, Is.EqualTo(42));
+        }
+        [Test]
+        public void GenMagicNum_NegativeValue_ReturnsZeroResult()
+        {
+            
+            double result = _calculator.GenMagicNum(2, _fileReader);
+            Assert.That(result, Is.EqualTo(10));
+        }
+
+        [Test]
+        public void GenMagicNum_InvalidIndex_ReturnsZeroResult()
+        {
+            
+            double result = _calculator.GenMagicNum(100, _fileReader);
+            Assert.That(result, Is.EqualTo(0));
+        }
+
+       
     }
 }

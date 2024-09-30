@@ -117,3 +117,8 @@ D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ICT3101_Calculator
 D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ICT3101_Calculator.UnitTests.genruntimeconfig.cache
 D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ref\ICT3101_Calculator.UnitTests.dll
 D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\obj\Debug\net8.0\ICT3101_Calculator.UnitTests.sourcelink.json
+D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\Castle.Core.dll
+D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\Moq.dll
+D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\ICT3112\lab1\ICT3101_Calculator.UnitTests\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

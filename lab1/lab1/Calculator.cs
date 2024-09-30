@@ -1,4 +1,5 @@
 ﻿using System.Reflection.Metadata.Ecma335;
+using ICT3101_Calculator;
 using Newtonsoft.Json.Linq;
 using TechTalk.SpecFlow.CommonModels;
 
@@ -49,6 +50,10 @@ public class Calculator
             case "c":
                 result = CalculateCircleArea(num1);
                 break;
+
+            //case "x":
+            //    result = GenMagicNum(num1);
+            //    break;
             // Return text for an incorrect option entry.
             default:
                 break;
@@ -229,5 +234,21 @@ public class Calculator
         }
 
         return Factorial(num1) / (Factorial(num2) * Factorial(num1 - num2));
+    }
+
+    public double GenMagicNum(double input, IFileReader fileReader)
+    {
+        double result = 0;
+        int choice = Convert.ToInt16(input);
+        //Dependency------------------------------
+        //FileReader getTheMagic = new FileReader();
+        //----------------------------------------
+        string[] magicStrings = fileReader.Read("D:\\ICT3112\\lab1\\lab1\\MagicNumbers.txt");
+        if ((choice >= 0) && (choice < magicStrings.Length))
+        {
+            result = Convert.ToDouble(magicStrings[choice]);
+        }
+        result = (result > 0) ? (2 * result) : (-2 * result);
+        return result;
     }
 }
