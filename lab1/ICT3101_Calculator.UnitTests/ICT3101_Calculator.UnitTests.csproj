@@ -29,6 +29,11 @@
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.74" />
   </ItemGroup>
 
+	<ItemGroup>
+		<None Update="lab1/lab1/MagicNumbers.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\lab1\ICT3101_Calculator.csproj" />
   </ItemGroup>
