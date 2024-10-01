@@ -16,9 +16,11 @@ namespace ICT3101_Calculator.UnitTests
         [SetUp]
         public void Setup()
         {
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\lab1\MagicNumbers.txt");
+
             _mockFileReader = new Mock<IFileReader>();
             _mockFileReader.Setup(fr =>
-            fr.Read("MagicNumbers.txt")).Returns(new string[3] { "42", "42", "-5" });
+            fr.Read(filePath)).Returns(new string[3] { "42", "42", "-5" });
             _calculator = new Calculator();
 
             
