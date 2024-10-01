@@ -15,7 +15,8 @@ namespace ICT3101_Calculator.UnitTests
 
         [SetUp]
         public void Setup()
-        {
+        {   
+            // new String 
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..\..\lab1\MagicNumbers.txt");
 
             _mockFileReader = new Mock<IFileReader>();
@@ -44,6 +45,8 @@ namespace ICT3101_Calculator.UnitTests
             // Verify the mock was called
             Assert.That(result, Is.EqualTo(10));
         }
+
+
 
         [Test]
         public void GenMagicNum_InvalidIndex_ReturnsZeroResult()
